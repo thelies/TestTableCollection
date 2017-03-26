@@ -12,6 +12,13 @@
 		DE9B90121E86738B00CB058D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9B90101E86738B00CB058D /* Main.storyboard */; };
 		DE9B90141E86738B00CB058D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9B90131E86738B00CB058D /* Assets.xcassets */; };
 		DE9B90171E86738B00CB058D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9B90151E86738B00CB058D /* LaunchScreen.storyboard */; };
+		DE9B901F1E86757800CB058D /* ItemCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9B901E1E86757800CB058D /* ItemCollectionCell.xib */; };
+		DE9B90211E86764500CB058D /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9B90201E86764500CB058D /* ItemCell.xib */; };
+		DE9B90271E86781C00CB058D /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B90261E86781C00CB058D /* ItemCell.swift */; };
+		DE9B90291E86786100CB058D /* ItemCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B90281E86786100CB058D /* ItemCollectionCell.swift */; };
+		DE9B902D1E86790E00CB058D /* ItemCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B902C1E86790E00CB058D /* ItemCollectionViewController.swift */; };
+		DE9B902F1E867F5500CB058D /* HeaderColllectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B902E1E867F5500CB058D /* HeaderColllectionView.swift */; };
+		DE9B90311E867F6700CB058D /* HeaderCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9B90301E867F6700CB058D /* HeaderCollectionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		DE9B90131E86738B00CB058D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9B90161E86738B00CB058D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE9B90181E86738B00CB058D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9B901E1E86757800CB058D /* ItemCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCollectionCell.xib; sourceTree = "<group>"; };
+		DE9B90201E86764500CB058D /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		DE9B90261E86781C00CB058D /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		DE9B90281E86786100CB058D /* ItemCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionCell.swift; sourceTree = "<group>"; };
+		DE9B902C1E86790E00CB058D /* ItemCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewController.swift; sourceTree = "<group>"; };
+		DE9B902E1E867F5500CB058D /* HeaderColllectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderColllectionView.swift; sourceTree = "<group>"; };
+		DE9B90301E867F6700CB058D /* HeaderCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCollectionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				DE9B90131E86738B00CB058D /* Assets.xcassets */,
 				DE9B90151E86738B00CB058D /* LaunchScreen.storyboard */,
 				DE9B90181E86738B00CB058D /* Info.plist */,
+				DE9B901E1E86757800CB058D /* ItemCollectionCell.xib */,
+				DE9B90201E86764500CB058D /* ItemCell.xib */,
+				DE9B90261E86781C00CB058D /* ItemCell.swift */,
+				DE9B90281E86786100CB058D /* ItemCollectionCell.swift */,
+				DE9B902C1E86790E00CB058D /* ItemCollectionViewController.swift */,
+				DE9B902E1E867F5500CB058D /* HeaderColllectionView.swift */,
+				DE9B90301E867F6700CB058D /* HeaderCollectionView.xib */,
 			);
 			path = TestTableCollection;
 			sourceTree = "<group>";
@@ -125,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9B90171E86738B00CB058D /* LaunchScreen.storyboard in Resources */,
+				DE9B90311E867F6700CB058D /* HeaderCollectionView.xib in Resources */,
 				DE9B90141E86738B00CB058D /* Assets.xcassets in Resources */,
+				DE9B90211E86764500CB058D /* ItemCell.xib in Resources */,
+				DE9B901F1E86757800CB058D /* ItemCollectionCell.xib in Resources */,
 				DE9B90121E86738B00CB058D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9B90271E86781C00CB058D /* ItemCell.swift in Sources */,
+				DE9B90291E86786100CB058D /* ItemCollectionCell.swift in Sources */,
 				DE9B900F1E86738B00CB058D /* ViewController.swift in Sources */,
 				DE9B900D1E86738B00CB058D /* AppDelegate.swift in Sources */,
+				DE9B902F1E867F5500CB058D /* HeaderColllectionView.swift in Sources */,
+				DE9B902D1E86790E00CB058D /* ItemCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
