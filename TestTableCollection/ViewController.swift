@@ -22,6 +22,13 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.register(UINib(nibName: ItemCell.identifier, bundle: nil), forCellReuseIdentifier: ItemCell.identifier)
         addHeaderViewForTable()
+        
+        let leftImage = UIImage(named: "Undo")
+        let rightImage = UIImage(named: "Redo")
+        
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: leftImage, style: .plain, target: self, action: #selector(tapLeftButton))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: rightImage, style: .plain, target: self, action: #selector(tapRightButton))
+        self.navigationItem.title = "Nav title"
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,6 +46,14 @@ class ViewController: UIViewController {
         headerView.collectionContainerView.addSubview(itemCollectionVC.view)
         
         tableView.tableHeaderView = headerView
+    }
+    
+    func tapLeftButton() {
+        print("🔵Tap Left Button")
+    }
+    
+    func tapRightButton() {
+        print("🔴Tap Right Button")
     }
 }
 
